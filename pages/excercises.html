@@ -27,7 +27,7 @@
 
         <!-- Application content here -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white navbar fixed-top">
-          <a class="navbar-brand" href="#">ZTM</a>
+          <a class="navbar-brand" href="../index.html">ZTM</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,13 +35,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="http://127.0.0.1:56131/index.html#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://127.0.0.1:56131/pages/excercises.html#">Excercises</a>
+                <a class="nav-link" href="excercises.html#">Excercises</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,22 +61,46 @@
           </div>
         </nav>
 
-        <section id="excercises" class="hero">
-          <div class="container">
-            <div class="row content">
-              <div class="col-12">
+
+
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-12 col-md-2 bg-light sidebar">
+                <nav class="navbar-fixed">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+
+            <div class="col-sm-12 col-md-10">
+              <section class="main page-title">
                 <header>
                   <h6>Frontend</h6>
                   <div class="underline"></div>
                   <h1>Excercises</h1>
                 </header>
-              </div>
-              <div class="col-12">
-                <img src="../img/excercises-hero.svg" class="img-fluid"/>
-              </div>
+                <div class="col-12">
+                  <img src="../img/excercises-hero.svg" class="img-fluid"/>
+                </div>
+              </section>
             </div>
           </div>
-        </section>
+        </div>
+
+
 
 
 

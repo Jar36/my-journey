@@ -124,6 +124,10 @@ p {
   line-height: 1.8rem;
 }
 
+.fixed-top {
+  box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.1);
+}
+
 a.nav-link {
   font-family: 'Quicksand', sans-serif;
   text-transform: lowercase;
@@ -144,28 +148,25 @@ a.nav-link {
 
 */
 
-.hero {
-  text-align: center;
-  color: #575988;
+#home header, #excercises header {
+  padding-bottom: 100px;
   margin-top: 70px;
 }
 
-#home header, #excercises header {
-  padding-bottom: 100px;
-}
-
-.content {
+.page-title {
   padding-top: 70px;
   font-weight: 300;
+  text-align: center;
+  color: #575988;
 }
 
-.content h6 {
+.page-title h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
 }
 
-.content h1 {
+.page-title h1 {
   letter-spacing: 6px;
   font-weight: 700;
   text-transform: lowercase;
@@ -193,18 +194,9 @@ a.nav-link {
 */
 
 #about {
-  padding: 70px 0;
+  padding: 70px 0 25px 0;
   background: #fcfcfc;
 
-}
-
-/*.about-squares {
-    background: url("../img/squares.svg")no-repeat center;
-    background-size: cover;
-}*/
-
-.skills {
-  padding: 200px 0px;
 }
 
 .skills {
@@ -295,6 +287,19 @@ a.nav-link {
   ===========================================================================
 
 */
+
+.sidebar {
+  position: sticky;
+}
+
+.sidebar ul {
+  position: fixed;
+  margin-top: 50px;
+}
+
+.main.page-title header {
+  margin-bottom: 150px;
+}
 
 
 
