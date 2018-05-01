@@ -40,8 +40,14 @@
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="excercises.html#">Excercises</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#excercises.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Excercises
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">HTML/CSS</a>
+                  <a class="dropdown-item" href="#">JavaScript</a>
+                </div>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,31 +67,9 @@
           </div>
         </nav>
 
-
-
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-              <div class="col-sm-12 col-md-2 bg-light sidebar">
-                <nav class="navbar-fixed">
-                  <ul class="nav flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-
-
-            <div class="col-sm-12 col-md-10">
+            <div class="col-12 main-page">
               <section class="main page-title">
                 <header>
                   <h6>Frontend</h6>
@@ -95,7 +79,30 @@
                 <div class="col-12">
                   <img src="../img/excercises-hero.svg" class="img-fluid"/>
                 </div>
-              </section>
+              </section><!-- End Page Hero -->
+            </div>
+          </div>
+
+          <div class="row landing-row">
+            <div class="col-12">
+              <header>
+                <h6>HTML/CSS</h6>
+                <div class="underline left"></div>
+                <h1>Landing Page</h1>
+              </header>
+            </div>
+            <div class="col-12">
+              <section id="landing-page" class="landing-hero">
+                <div class="row justify-content-center">
+                  <div class="col-12 content">
+                    <h2>Creative Designs</h2>
+                    <h6>
+                      Building better experiences one design at a time
+                    </h6>
+                    <button type="button" class="btn btn-outline-light my-btn">Find out more</button>
+                  </div>
+                </div>
+              </section><!-- Landing Page -->
             </div>
           </div>
         </div>

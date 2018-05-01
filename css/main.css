@@ -139,7 +139,7 @@ a.nav-link {
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: #ffd037;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* ==========================================================================
@@ -288,18 +288,70 @@ a.nav-link {
 
 */
 
-.sidebar {
-  position: sticky;
-}
-
-.sidebar ul {
-  position: fixed;
-  margin-top: 50px;
-}
-
 .main.page-title header {
   margin-bottom: 150px;
 }
+
+
+
+
+
+/* ==========================================================================
+    LANDING PAGE EXCERCISE
+  ===========================================================================
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.landing-row {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#landing-page h2, #landing-page h6, #landing-page .my-btn {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-hero {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../img/landing-hero.jpg)no-repeat center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#landing-page .content {
+  color: #fff;
+  padding: 50px auto;
+}
+
+#landing-page h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  width: 100%;
+}
+
+#landing-page h6 {
+  line-height: 1.4em;
+}
+
+#landing-page .my-btn {
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 80px auto auto auto;
+  text-transform: uppercase;
+}
+
+
 
 
 
