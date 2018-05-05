@@ -50,7 +50,7 @@
                   <a class="dropdown-item" href="html_css.html">HTML/CSS</a>
                   <a class="dropdown-item" href="javascript.html">JavaScript</a>
                   <div class="dropdown-divider"></div>
-                  <a href="../pages/backend.html" class="dropdown-item"><i class="fas fa-terminal"></i> Backend</p>
+                  <p class="dropdown-item"><i class="fas fa-terminal"></i> Backend</p>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Something</a>
                   <a class="dropdown-item" href="#">Something</a>
@@ -74,24 +74,303 @@
           </div>
         </nav>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12 main-page">
-              <section class="main page-title">
-                <header>
-                  <h6>Backend</h6>
-                  <div class="underline"></div>
-                  <h1>Excercises</h1>
-                </header>
-                <div class="col-12">
-                  <img src="../img/javascript-hero.svg" class="img-fluid"/>
-                </div>
-              </section><!-- End Page Hero -->
+        <section id="javascript-home">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 main-page">
+                <section class="main page-title">
+                  <header>
+                    <h6>Javascript</h6>
+                    <div class="underline"></div>
+                    <h1>Excercises</h1>
+                  </header>
+                  <div class="col-12">
+                    <img src="../img/javascript-hero.svg" class="img-fluid"/>
+                  </div>
+                </section><!-- End Page Hero -->
+              </div>
             </div>
           </div>
+        </section>
+
+        <section id="js-exercises">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <p class="number text-center">
+                  01
+                </p>
+                <div class="underline"></div>
+              </div>
+              <div class="col-12">
+                <p class="text-center code-description">
+                  Guess what answers you would get if you ran this in the <em>Javascript Console in Google Chrome.</em> Once you have an answer to the questions then check them by copying them and running it in the console yourself line by line.
+                </p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6">
+                <pre class="code-bg">
+                  <code>
+                  Evaluate the below:
+                  console.log(5 + "34");
+                  console.log(5 - "4");
+                  console.log(10 % 5);
+                  console.log(5 % 10);
+                  console.log("Java" + "Script");
+                  console.log(" " + " ");
+                  console.log(" " + 0);
+                  console.log(true + true);
+                  console.log(true + false);
+                  console.log(false + true);
+                  console.log(false - true);
+                  console.log(3 - 4);
+                  console.log("Bob" - "bill");
+                  </code>
+                </pre>
+              </div>
+              <div class="col-12 col-md-6">
+                <pre class="output-bg">
+                  <code>
+                    Console Output:
+                    > "534"
+                    > 1
+                    > 0
+                    > 5
+                    > "JavaScript"
+                    > "  "
+                    > " 0"
+                    > 2
+                    > 1
+                    > 1
+                    > -1
+                    > -1
+                    > NaN
+                  </code>
+                </pre>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6">
+                <pre class="code-bg">
+                  <code>
+                  Evaluate the below:
+                  console.log(5 >= 1);
+                  console.log(0 === 1);
+                  console.log(4 <= 1);
+                  console.log(1 != 1);
+                  console.log("A" > "B");
+                  console.log("B" < "C");
+                  console.log("a" > "A");
+                  console.log("b" < "A");
+                  console.log(true === false);
+                  console.log(true != true);
+                  </code>
+                </pre>
+              </div>
+              <div class="col-12 col-md-6">
+                <pre class="output-bg">
+                  <code>
+                    Console Output:
+                    > true
+                    > false
+                    > false
+                    > false
+                    > false
+                    > true
+                    > true
+                    > false
+                    > false
+                    > false
+                  </code>
+                </pre>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6">
+                <pre class="code-bg">
+                  <code>
+                    Using the + sign, make this string:
+                    "Hi There! It's "sunny" out"
+                    console.log("Hi There! " + "It\'s \"sunny\" out");
+                  </code>
+                </pre>
+              </div>
+              <div class="col-12 col-md-6">
+                <pre class="output-bg">
+                  <code>
+                    Console Output:
+                    > "Hi There! It's \"sunny\" out"
+                  </code>
+                </pre>
+              </div>
+            </div><!-- End Excercise 1 -->
+            <div class="row align-items-center">
+              <div class="col-12">
+                <p class="number text-center">
+                  02
+                </p>
+                <div class="underline"></div>
+              </div>
+              <div class="col-12">
+                <p class="text-center code-description">
+                  Evaluate what answers you would get if you ran this in the Javascript Console in google Chrome. Answer the questions then check them by copying them and running it in the console yourself line by line.
+                </p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6">
+                <pre class="code-bg">
+                  <code>
+                  Add variable "firstName" and "lastName".
+                  Create a variable that holds the answer.
+
+                  var firstName = "Joseph";
+                  var lastName = "Romero";
+                  var name = firstName + " " + lastName;
+
+                  console.log(name);
+                  </code>
+                </pre>
+              </div>
+              <div class="col-12 col-md-6">
+                <pre class="output-bg">
+                  <code>
+                    Console Output:
+                    > "Joseph Romero"
+                  </code>
+                </pre>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6">
+                <pre class="code-bg">
+                  <code>
+                  Evaluate this question.
+                  What is a + b?
+
+                  var a = 34;
+                  var b = 21;
+                  a = 2;
+
+                  console.log (a + b);
+                  </code>
+                </pre>
+              </div>
+              <div class="col-12 col-md-6">
+                <pre class="output-bg">
+                  <code>
+                    Console Output:
+                    > 23
+                  </code>
+                </pre>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6">
+                <pre class="code-bg">
+                  <code>
+                    What is c equal to?
+                    var c;
+                    console.log(c);
+                  </code>
+                </pre>
+              </div>
+              <div class="col-12 col-md-6">
+                <pre class="output-bg">
+                  <code>
+                    Console Output:
+                    > Undefined
+                  </code>
+                </pre>
+              </div>
+            </div><!-- End Excercise 2 -->
+            <div class="row">
+              <div class="col-12">
+                <p class="number text-center">
+                  03
+                </p>
+                <div class="underline"></div>
+              </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Make a Calculator! using prompt(), and variables, make a program that does the following:
+                  </p>
+                </div>
+                <div class="col-12 col-md-9 offset-md-3">
+                  <ol>
+                    <li>
+                      Prompts the user for first number.
+                    </li>
+                      </li>
+                      <li>
+                        Stores that first number
+                      </li>
+                      <li>
+                        Prompts the user for the second number.
+                      </li>
+                      <li>
+                        stores that number and responds with the SUM by using an alert.
+                      </li>
+                  </ol>
+                </div>
+                <div class="col-12">
+                  <p class="text-center code-description">
+                  BONUS: Make a program that can subtract, multiply, and also divide!
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    var firstNum = prompt("Enter a number");
+                    var secondNum = prompt("Enter another number");
+                    var numOne = Number(firstNum);
+                    var numTwo = Number(secondNum);
+
+                    alert("The sum is: " + (numOne+numTwo));
+                  }
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 mb-5 text-center">
+                  <button class="btn btn-warning btn-lg mybtn" type="submit" onclick="calc1()">Run this program</button>
+                </div>
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    var firstNum = prompt("Enter a number");
+                    var secondNum = prompt("Enter another number");
+                    var choice = prompt("What would you like to do? \nADD? \nSUBTRACT? \nMULTIPLY? \nDIVIDE?");
+                    var answer = choice.toLowerCase();
 
 
-        </div>
+                    if(answer==="add") {
+                      var results = Number(firstNum) + Number(secondNum);
+                      alert(results);
+                    }
+                    else if(answer==="subtract") {
+                      var results = Number(firstNum) - Number(secondNum);
+                      alert(results);
+                    }
+                    else if(answer==="multiply") {
+                      var results = Number(firstNum) * Number(secondNum);
+                      alert(results);
+                    }
+                    else if(answer==="divide") {
+                      var results = Number(firstNum) / Number(secondNum);
+                      alert(results);
+                    }
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 mb-5 text-center">
+                  <button class="btn btn-warning btn-lg mybtn" type="submit" onclick="calc2()">Run this program</button>
+                </div>
+              </div>
 
 
 
@@ -100,12 +379,26 @@
 
 
 
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+
+
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
