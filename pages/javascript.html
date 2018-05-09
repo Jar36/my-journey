@@ -41,8 +41,8 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#excercises.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Excercises
+                <a class="nav-link dropdown-toggle" href="#exercises.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  exercises
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <p class="dropdown-item"><i class="fas fa-code"></i> Frontend</p>
@@ -74,6 +74,29 @@
           </div>
         </nav>
 
+        <!-- Second Nav -->
+
+        <!-- Second Nav -->
+
+        <aside>
+          <nav class="nav flex-column">
+            <a class="nav-link" id="sidebar-title"><h6>All Exercises</h6></a>
+            <div class="dropdown-divider"></div>
+            <a class="nav-link" href="#console-log">console.log()</a>
+            <a class="nav-link" href="#calculator">calculator</a>
+            <a class="nav-link" href="#keyless-car">keyless car</a>
+            <a class="nav-link" href="#arrays">array fun</a>
+            <a class="nav-link" href="#objects">objects</a>
+            <a class="nav-link" href="#loops">loops</a>
+            <a class="nav-link" href="#shopping-list">shopping list</a>
+
+          </nav>
+
+        </aside>
+
+        <main>
+
+
         <section id="javascript-home">
           <div class="container">
             <div class="row">
@@ -82,7 +105,7 @@
                   <header>
                     <h6>Javascript</h6>
                     <div class="underline"></div>
-                    <h1>Excercises</h1>
+                    <h1>exercises</h1>
                   </header>
                   <div class="col-12">
                     <img src="../img/javascript-hero.svg" class="img-fluid"/>
@@ -95,231 +118,233 @@
 
         <section id="js-exercises">
           <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <p class="number text-center">
-                  01
-                </p>
-                <div class="underline"></div>
+            <!-- exercise One -->
+            <section class="exercise" id="console-log">
+              <div class="row"><!-- Title 01 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    01
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">console.log();</h2>
+                </div>
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Guess what answers you would get if you ran this in the <em>Javascript Console in Google Chrome.</em> Once you have an answer to the questions then check them by copying them and running it in the console yourself line by line.
+                  </p>
+                </div>
+              </div><!-- End title 01 -->
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                    Evaluate the below:
+                    console.log(5 + "34");
+                    console.log(5 - "4");
+                    console.log(10 % 5);
+                    console.log(5 % 10);
+                    console.log("Java" + "Script");
+                    console.log(" " + " ");
+                    console.log(" " + 0);
+                    console.log(true + true);
+                    console.log(true + false);
+                    console.log(false + true);
+                    console.log(false - true);
+                    console.log(3 - 4);
+                    console.log("Bob" - "bill");
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > "534"
+                      > 1
+                      > 0
+                      > 5
+                      > "JavaScript"
+                      > "  "
+                      > " 0"
+                      > 2
+                      > 1
+                      > 1
+                      > -1
+                      > -1
+                      > NaN
+                    </code>
+                  </pre>
+                </div>
               </div>
-              <div class="col-12">
-                <p class="text-center code-description">
-                  Guess what answers you would get if you ran this in the <em>Javascript Console in Google Chrome.</em> Once you have an answer to the questions then check them by copying them and running it in the console yourself line by line.
-                </p>
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                    Evaluate the below:
+                    console.log(5 >= 1);
+                    console.log(0 === 1);
+                    console.log(4 <= 1);
+                    console.log(1 != 1);
+                    console.log("A" > "B");
+                    console.log("B" < "C");
+                    console.log("a" > "A");
+                    console.log("b" < "A");
+                    console.log(true === false);
+                    console.log(true != true);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > true
+                      > false
+                      > false
+                      > false
+                      > false
+                      > true
+                      > true
+                      > false
+                      > false
+                      > false
+                    </code>
+                  </pre>
+                </div>
               </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6">
-                <pre class="code-bg">
-                  <code>
-                  Evaluate the below:
-                  console.log(5 + "34");
-                  console.log(5 - "4");
-                  console.log(10 % 5);
-                  console.log(5 % 10);
-                  console.log("Java" + "Script");
-                  console.log(" " + " ");
-                  console.log(" " + 0);
-                  console.log(true + true);
-                  console.log(true + false);
-                  console.log(false + true);
-                  console.log(false - true);
-                  console.log(3 - 4);
-                  console.log("Bob" - "bill");
-                  </code>
-                </pre>
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                      Using the + sign, make this string:
+                      "Hi There! It's "sunny" out"
+                      console.log("Hi There! " + "It\'s \"sunny\" out");
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > "Hi There! It's \"sunny\" out"
+                    </code>
+                  </pre>
+                </div>
               </div>
-              <div class="col-12 col-md-6">
-                <pre class="output-bg">
-                  <code>
-                    Console Output:
-                    > "534"
-                    > 1
-                    > 0
-                    > 5
-                    > "JavaScript"
-                    > "  "
-                    > " 0"
-                    > 2
-                    > 1
-                    > 1
-                    > -1
-                    > -1
-                    > NaN
-                  </code>
-                </pre>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6">
-                <pre class="code-bg">
-                  <code>
-                  Evaluate the below:
-                  console.log(5 >= 1);
-                  console.log(0 === 1);
-                  console.log(4 <= 1);
-                  console.log(1 != 1);
-                  console.log("A" > "B");
-                  console.log("B" < "C");
-                  console.log("a" > "A");
-                  console.log("b" < "A");
-                  console.log(true === false);
-                  console.log(true != true);
-                  </code>
-                </pre>
-              </div>
-              <div class="col-12 col-md-6">
-                <pre class="output-bg">
-                  <code>
-                    Console Output:
-                    > true
-                    > false
-                    > false
-                    > false
-                    > false
-                    > true
-                    > true
-                    > false
-                    > false
-                    > false
-                  </code>
-                </pre>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6">
-                <pre class="code-bg">
-                  <code>
-                    Using the + sign, make this string:
-                    "Hi There! It's "sunny" out"
-                    console.log("Hi There! " + "It\'s \"sunny\" out");
-                  </code>
-                </pre>
-              </div>
-              <div class="col-12 col-md-6">
-                <pre class="output-bg">
-                  <code>
-                    Console Output:
-                    > "Hi There! It's \"sunny\" out"
-                  </code>
-                </pre>
-              </div>
-            </div><!-- End Excercise 1 -->
-            <div class="row align-items-center">
-              <div class="col-12">
-                <p class="number text-center">
-                  02
-                </p>
-                <div class="underline"></div>
-              </div>
-              <div class="col-12">
-                <p class="text-center code-description">
-                  Evaluate what answers you would get if you ran this in the Javascript Console in google Chrome. Answer the questions then check them by copying them and running it in the console yourself line by line.
-                </p>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6">
-                <pre class="code-bg">
-                  <code>
-                  Add variable "firstName" and "lastName".
-                  Create a variable that holds the answer.
 
-                  var firstName = "Joseph";
-                  var lastName = "Romero";
-                  var name = firstName + " " + lastName;
-
-                  console.log(name);
-                  </code>
-                </pre>
-              </div>
-              <div class="col-12 col-md-6">
-                <pre class="output-bg">
-                  <code>
-                    Console Output:
-                    > "Joseph Romero"
-                  </code>
-                </pre>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6">
-                <pre class="code-bg">
-                  <code>
-                  Evaluate this question.
-                  What is a + b?
-
-                  var a = 34;
-                  var b = 21;
-                  a = 2;
-
-                  console.log (a + b);
-                  </code>
-                </pre>
-              </div>
-              <div class="col-12 col-md-6">
-                <pre class="output-bg">
-                  <code>
-                    Console Output:
-                    > 23
-                  </code>
-                </pre>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-md-6">
-                <pre class="code-bg">
-                  <code>
-                    What is c equal to?
-                    var c;
-                    console.log(c);
-                  </code>
-                </pre>
-              </div>
-              <div class="col-12 col-md-6">
-                <pre class="output-bg">
-                  <code>
-                    Console Output:
-                    > Undefined
-                  </code>
-                </pre>
-              </div>
-            </div><!-- End Excercise 2 -->
-            <div class="row">
-              <div class="col-12">
-                <p class="number text-center">
-                  03
-                </p>
-                <div class="underline"></div>
-              </div>
-              </div>
               <div class="row align-items-center">
                 <div class="col-12">
                   <p class="text-center code-description">
-                    Make a Calculator! using prompt(), and variables, make a program that does the following:
+                    Evaluate what answers you would get if you ran this in the Javascript Console in google Chrome. Answer the questions then check them by copying them and running it in the console yourself line by line.
                   </p>
                 </div>
-                <div class="col-12 col-md-9 offset-md-3">
-                  <ol>
-                    <li>
-                      Prompts the user for first number.
-                    </li>
-                      </li>
-                      <li>
-                        Stores that first number
-                      </li>
-                      <li>
-                        Prompts the user for the second number.
-                      </li>
-                      <li>
-                        stores that number and responds with the SUM by using an alert.
-                      </li>
-                  </ol>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                    Add variable "firstName" and "lastName".
+                    Create a variable that holds the answer.
+
+                    var firstName = "Joseph";
+                    var lastName = "Romero";
+                    var name = firstName + " " + lastName;
+
+                    console.log(name);
+                    </code>
+                  </pre>
                 </div>
+                <div class="col-12 col-md-6">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > "Joseph Romero"
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                    Evaluate this question.
+                    What is a + b?
+
+                    var a = 34;
+                    var b = 21;
+                    a = 2;
+
+                    console.log (a + b);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > 23
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                      What is c equal to?
+                      var c;
+                      console.log(c);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > Undefined
+                    </code>
+                  </pre>
+                </div>
+              </div><!-- End exercise 1 -->
+            </section>
+            <!-- End exercise One -->
+
+            <!-- exercise Two -->
+            <section class="exercise" id="calculator">
+              <div class="row"><!-- Title 02 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    02
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">calculator</h2>
+                </div>
+              </div><!-- End title 02 -->
+              <div class="row align-items-center">
                 <div class="col-12">
                   <p class="text-center code-description">
-                  BONUS: Make a program that can subtract, multiply, and also divide!
+                    This exercise had me make a simple calculator using prompt(), and variables. <br />The requirements were to make a program that does the following:
                   </p>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                  <ol>
+                    <li>
+                      Prompts the user for a first number.
+                    </li>
+                    <li>
+                      Stores that first number in a variable.
+                    </li>
+                  </ol>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                  <ol>
+                    <li>
+                      Prompts the user for the second number.
+                    </li>
+                    <li>
+                      Stores that number and responds with the SUM by using an alert.
+                    </li>
+                  </ol>
                 </div>
               </div>
               <div class="row">
@@ -332,12 +357,16 @@
                     var numTwo = Number(secondNum);
 
                     alert("The sum is: " + (numOne+numTwo));
-                  }
                     </code>
                   </pre>
                 </div>
-                <div class="col-12 mb-5 text-center">
+                <div class="col-12 text-center">
                   <button class="btn btn-warning btn-lg mybtn" type="submit" onclick="calc1()">Run this program</button>
+                </div>
+                <div class="col-12 text-center">
+                  <p class="text-center code-description">
+                  BONUS: Make a program that can subtract, multiply, and also divide!
+                  </p>
                 </div>
                 <div class="col-12">
                   <pre class="code-bg">
@@ -349,29 +378,783 @@
 
 
                     if(answer==="add") {
-                      var results = Number(firstNum) + Number(secondNum);
-                      alert(results);
+                      &nbsp;&nbsp;var results = Number(firstNum) + Number(secondNum);
+                      &nbsp;&nbsp;alert(results);
                     }
                     else if(answer==="subtract") {
-                      var results = Number(firstNum) - Number(secondNum);
-                      alert(results);
+                      &nbsp;&nbsp;var results = Number(firstNum) - Number(secondNum);
+                      &nbsp;&nbsp;alert(results);
                     }
                     else if(answer==="multiply") {
-                      var results = Number(firstNum) * Number(secondNum);
-                      alert(results);
+                      &nbsp;&nbsp;var results = Number(firstNum) * Number(secondNum);
+                      &nbsp;&nbsp;alert(results);
                     }
                     else if(answer==="divide") {
-                      var results = Number(firstNum) / Number(secondNum);
-                      alert(results);
+                      &nbsp;&nbsp;var results = Number(firstNum) / Number(secondNum);
+                      &nbsp;&nbsp;alert(results);
                     }
                     </code>
                   </pre>
                 </div>
-                <div class="col-12 mb-5 text-center">
+                <div class="col-12 text-center">
                   <button class="btn btn-warning btn-lg mybtn" type="submit" onclick="calc2()">Run this program</button>
+                </div>
+              </div><!-- End exercise 2 -->
+            </section>
+            <!-- End exercise Two -->
+
+            <!-- exercise Three -->
+            <section class="exercise" id="keyless-car">
+              <div class="row"><!-- Title 03 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    03
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">keyless car</h2>
+                </div>
+              </div><!-- End title 03 -->
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Make a keyless car! This car will only let you drive if you are over the age of 18.<br /> For this exercise I had to make it do the following:
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                  <ul>
+                    <li>
+                      Using prompt() and alert(), ask a user for their age.
+                    </li>
+                    <li class="mb-3">
+                      If they say they are below 18, respond with:<br />
+                      <em>"Sorry, you are too young to drive this car. Powering off"</em>
+                    </li>
+                  </ul>
+                </div>
+                  <div class="col-12 col-md-6 mb-5">
+                  <ul>
+                    <li class="mb-3">
+                      If they say they are 18, respond with:<br />
+                      <em>"Congratulations on your first year of driving. Enjoy the ride!"</em>
+                    </li>
+                    <li class="mb-3">
+                      If they say they are over 18, respond with:<br />
+                      <em>"Powering On. Enjoy the ride!"</em>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    var age = prompt("How old are you?");
+                    var ageResult = Number(age);
+
+                    if(ageResult < 18) {
+                      &nbsp;&nbsp;alert("Sorry, you are too young to drive this car. Powering off");
+                    }
+
+                    else if (ageResult === 18) {
+                      &nbsp;&nbsp;alert("Congratulations on your first year of driving. Enjoy the ride!");
+                    }
+
+                    else if(ageResult > 18) {
+                    &nbsp;&nbsp;alert("Powering On. Enjoy the ride!");
+                    }
+                    </code>
+                  </pre>
+                </div><!-- Code block -->
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Although this works, unfortunately it would run immediately upon page load and any time the page refreshes. Also, it isn't really what I would call reusable. This will get somewhat solved in the following exercises.
+                  </p>
+                </div>
+              </div><!-- End exercise 3 -->
+            </section>
+            <!-- End exercise Three -->
+
+            <!-- exercise Four -->
+            <section class="exercise" id="arrays">
+              <div class="row"><!-- Title 04 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    04
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">keyless car (modified)</h2>
+                </div>
+              </div><!-- End title 04 -->
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Make an keyless car EVEN BETTER! This exercise was to improve the car from previous the exercise.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                      var age = prompt("How old are you?");
+                      var ageResult = Number(age);
+
+                      if(ageResult < 18) {
+                        &nbsp;&nbsp;alert("Sorry, you are too young to drive this car. Powering off");
+                      }
+
+                      else if (ageResult === 18) {
+                        &nbsp;&nbsp;alert("Congratulations on your first year of driving. Enjoy the ride!");
+                      }
+
+                      else if(ageResult > 18) {
+                      &nbsp;&nbsp;alert("Powering On. Enjoy the ride!");
+                      }
+                    </code>
+                  </pre>
+                </div><!-- Code block -->
+
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    To improve the existing code using function declaration, I needed to make the above code have a function called <code>checkDriverAge()</code>. This allows for reuse of the function on invocation.
+                  </p>
+                </div>
+
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    function checkDriverAge1() {
+                      &nbsp;&nbsp;var age = prompt("How old are you?");
+                      &nbsp;&nbsp;var ageResult = Number(age);
+
+                      &nbsp;&nbsp;if(ageResult < 18) {
+                      &nbsp;&nbsp;&nbsp;&nbsp;alert("Sorry, you are too young to drive this car. Powering off");
+                      &nbsp;&nbsp;}
+
+                      &nbsp;&nbsp;else if (ageResult === 18) {
+                      &nbsp;&nbsp;&nbsp;&nbsp;alert("Congratulations on your first year of driving. Enjoy the ride!");
+                      &nbsp;&nbsp;}
+
+                      &nbsp;&nbsp;else if(ageResult > 18) {
+                      &nbsp;&nbsp;&nbsp;&nbsp;alert("Powering On. Enjoy the ride!");
+                      &nbsp;&nbsp;}
+                    };
+                    </code>
+                  </pre>
+                </div><!-- Code block -->
+                <div class="col-12 text-center">
+                  <button class="btn btn-warning btn-lg mybtn" type="submit" onclick="checkDriverAge1()">Run this program</button>
+                </div><!-- End of declaration block -->
+
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Alternativley, I can also use a function expression to accomplish the same thing. I will call my expression checkDriverAge2.
+                  </p>
+                </div>
+
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    var checkDriverAge2 = function() {
+                      &nbsp;var age = prompt("How old are you?");
+                      &nbsp;var ageResult = Number(age);
+
+                      &nbsp;if(ageResult < 18) {
+                        &nbsp;&nbsp;alert("Sorry, you are too young to drive this car. Powering off");
+                      &nbsp;}
+
+                      &nbsp;else if (ageResult === 18) {
+                        &nbsp;&nbsp;alert("Congratulations on your first year of driving. Enjoy the ride!");
+                      &nbsp;}
+
+                      &nbsp;else if(ageResult > 18) {
+                      &nbsp;&nbsp;alert("Powering On. Enjoy the ride!");
+                      &nbsp;}
+                    };
+                    </code>
+                  </pre>
+                </div><!-- Code block -->
+                <div class="col-12 text-center">
+                  <button class="btn btn-warning btn-lg mybtn" type="submit" onclick="checkDriverAge2()">Run this program</button>
+                </div><!-- End of expression block -->
+
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    But wait! There's more. So as a <strong>BONUS</strong> instead of using the prompt, I needed to use console.log and make the <code>checkDriverAge()</code> function accept an argument of age, so that if someone were to enter <code>checkDriverAge(92)</code>, it would return the appropriate response.
+                  </p>
+                </div>
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    function checkDriverAge(age) {
+                    	&nbsp;if (Number(age) < 18) {
+                  		&nbsp;&nbsp;return "Sorry, you are too yound to drive this car. Powering off";
+                    	&nbsp;}
+                      &nbsp;else if (Number(age) > 18) {
+                  		&nbsp;&nbsp;return "Powering On. Enjoy the ride!";
+                    	&nbsp;}
+                      &nbsp;else if (Number(age) === 18) {
+                      &nbsp;&nbsp;return "Congratulations on your first year of driving. Enjoy the ride!";
+                    	&nbsp;}
+                    }
+                    console.log(37);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      "Powering On. Enjoy the ride!"
+                    </code>
+                  </pre>
+                </div>
+              </div>
+            </section>
+            <!-- End exercise Four -->
+
+            <!-- exercise Five -->
+            <section class="exercise" id="objects">
+              <div class="row"><!-- Title 05 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    05
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">array fun</h2>
+                </div>
+              </div><!-- End title 05 -->
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    This exercise allowed me to practice with simple array sorting and accessing items in an array.
+                  </p>
                 </div>
               </div>
 
+              <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                  <pre class="code-bg">
+                    <code>
+                    var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+                    1. Remove the Banana from the array.
+                       &nbsp;&nbsp;&nbsp;array.shift();
+                       &nbsp;&nbsp;&nbsp;console.log(array);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-5">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > ["Apples, Oranges, Bluberries"]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                  <pre class="code-bg">
+                    <code>
+                    var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+                    2. Sort the array in order.
+                       &nbsp;&nbsp;&nbsp;array.shift();
+
+                       &nbsp;&nbsp;&nbsp;array.sort();
+                       &nbsp;&nbsp;&nbsp;console.log(array);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-5">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > ["Apples, Bluberries, Oranges"]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                  <pre class="code-bg">
+                    <code>
+                    var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+                    3. Put "Kiwi" at the end of the array.
+                        &nbsp;&nbsp;&nbsp;array.shift();
+                        &nbsp;&nbsp;&nbsp;array.sort();
+
+                        &nbsp;&nbsp;&nbsp;array.push("Kiwi");
+                        &nbsp;&nbsp;&nbsp;console.log(array);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-5">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > ["Apples, Bluberries, Oranges, Kiwi"]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                  <pre class="code-bg">
+                    <code>
+                    var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+                    4. Remove "Apples" from the array.
+                       &nbsp;&nbsp;&nbsp;array.shift();
+                       &nbsp;&nbsp;&nbsp;array.sort();
+                       &nbsp;&nbsp;&nbsp;array.push("Kiwi");
+
+                       &nbsp;&nbsp;&nbsp;array.shift();
+                       &nbsp;&nbsp;&nbsp;console.log(array);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-5">
+                  <pre class="output-bg">
+                    <code>
+                        Console Output:
+                        > ["Bluberries, Oranges, Kiwi"]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                  <pre class="code-bg">
+                    <code>
+                    var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+                    5. Sort the array in reverse order.
+                       &nbsp;&nbsp;&nbsp;array.shift();
+                       &nbsp;&nbsp;&nbsp;array.sort();
+                       &nbsp;&nbsp;&nbsp;array.push("Kiwi");
+                       &nbsp;&nbsp;&nbsp;array.shift();
+
+                       &nbsp;&nbsp;&nbsp;array.reverse();
+                       &nbsp;&nbsp;&nbsp;console.log(array);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-5">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > ["Kiwi, Oranges, Bluberries"]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12 col-md-7">
+                  <pre class="code-bg">
+                    <code>
+                    var array2 =
+                    ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+
+                    6. Access "Oranges".
+                       &nbsp;&nbsp;&nbsp;console.log(array2[1][1]);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-5">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output:
+                      > ["Oranges"]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Next up an array exercise with objects used to illustrate the usefulness of data structures in the real world by building a simple program that holds data and can be accessed given certain met criteria.
+                  </p>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                    1. Create an object that has properties "username" and "password". Fill those values in with strings.
+
+
+                      var user = {
+                      &nbsp;&nbsp;username: "John",
+                      &nbsp;&nbsp;password: "qwet123"
+                      };
+
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12 col-md-6">
+                  <pre class="code-bg">
+                    <code>
+                      2. Create an array which contains the object you have made above and name the array "database".
+
+                        var database = [
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "John",
+                        &nbsp;&nbsp;&nbsp;&nbsp;password: "qwet123"
+                        &nbsp;&nbsp;}
+                        ];
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                      3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
+
+                        var newsFeed = [
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jane",
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "fvet123"
+                        &nbsp;&nbsp;},
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jennifer",
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "324rfgh"
+                        &nbsp;&nbsp;},
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp; username: "Joe",
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "lkjriu8"
+                        &nbsp;&nbsp;}
+                        ];
+                        var userNamePrompt = prompt("Whats your username?");
+                        var passwordPrompt = prompt("What's your password?");
+
+                        function signIn(user, password) {
+                        &nbsp;&nbsp;if (user === database[0].username &&
+                        &nbsp;&nbsp;&nbsp;&nbsp;password === database[0].password){
+                        &nbsp;&nbsp;&nbsp;&nbsp;console.log(newsFeed);
+                        &nbsp;&nbsp;} else {
+                        &nbsp;&nbsp;&nbsp;&nbsp;alert("Sorry, wrong username and password");
+                        &nbsp;&nbsp;}
+                        };
+
+                        signIn(userNamePrompt, passwordPrompt);
+                    </code>
+                  </pre>
+                </div>
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Now to make this thing run in the console I need to check for the correct username and password. Then if the combination is correct I can display the newsFeed object in the console. If not I can alert the user to try again.
+                  </p>
+                </div>
+
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                      //Here we have a single user
+
+                      var user = {
+                      &nbsp;&nbsp;username: "John",
+                      &nbsp;&nbsp;password: "qwet123"
+                      };
+
+                      //Here the database consitis of that single user
+
+                      var database = [
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;username: "John",
+                      &nbsp;&nbsp;&nbsp;password: "qwet123"
+                      &nbsp;&nbsp;}
+                      ];
+
+                      //Here is the newsfeed array containing three objects for the feed
+
+                      var newsFeed = [
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;username: "Jane",
+                      &nbsp;&nbsp;&nbsp;timeline: "fvet123"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;username: "Jennifer",
+                      &nbsp;&nbsp;&nbsp;timeline: "324rfgh"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp; username: "Joe",
+                      &nbsp;&nbsp;&nbsp;timeline: "lkjriu8"
+                      &nbsp;&nbsp;}
+                      ];
+
+                      //Here is where the username and password are requested from the user
+
+                      &nbsp;var userNamePrompt = prompt("Whats your username?");
+                      &nbsp;var passwordPrompt = prompt("What's your password?");
+
+                      //Here is the logic checking for the correct combination of username and password
+
+                      function signIn(user, password) {
+                      &nbsp;&nbsp;if (user === database[0].username &&
+                      &nbsp;&nbsp;&nbsp;password === database[0].password) {
+                      &nbsp;&nbsp;&nbsp;console.log(newsFeed);
+                      &nbsp;&nbsp;}
+                      &nbsp;&nbsp;else {
+                      &nbsp;&nbsp;&nbsp;&nbsp;alert("Sorry, wrong username and password");
+                      &nbsp;&nbsp;}
+                      };
+
+                      //Here the function is called to run
+
+                      signIn(userNamePrompt, passwordPrompt);
+                    </code>
+                  </pre>
+                </div>
+
+                <div class="col-12">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output with correct combination:
+                      > [[object Object] {
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Mondays... meh",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jane"
+                        &nbsp;&nbsp;}, [object Object] {
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Girl's night, yay!!",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jennifer"
+                        &nbsp;&nbsp;}, [object Object] {
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Loving this weather!",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Joe"
+                        &nbsp;&nbsp;}]
+                    </code>
+                  </pre>
+                </div>
+
+              </div>
+            </section>
+            <!-- End exercise Five -->
+
+            <!-- exercise Six -->
+            <section class="exercise" id="loops">
+              <div class="row"><!-- Title 06 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    06
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">loops</h2>
+                </div>
+              </div><!-- End title 06 -->
+
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Using the previous facebook like exercise, I needed to create a new way of accessing a database with more than one potential user. Enter the <code>for(){}</code> loop.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                      // Here we have a single user
+
+                      var user = {
+                        &nbsp;&nbsp;username: "John",
+                        &nbsp;&nbsp;password: "qwet123"
+                      };
+
+                      //Here the database consists of that single user
+
+                      var database = [
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "John",
+                        &nbsp;&nbsp;&nbsp;&nbsp;password: "qwet123"
+                        &nbsp;&nbsp;}
+                      ];
+
+                      //Here is the newsfeed array containing three objects for the feed
+
+                      var newsFeed = [
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Mondays... meh",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jane"
+                        &nbsp;&nbsp;},
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Girl's night, yay!!",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jennifer"
+                        &nbsp;&nbsp;},
+                        &nbsp;&nbsp;{
+                        &nbsp;&nbsp;&nbsp;&nbsp; timeline: "Loving this weather!",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Joe"
+                        &nbsp;&nbsp;}
+                      ];
+
+                      //Here is where the username and password are requested from the user
+
+                      var userNamePrompt = prompt("Whats your username?");
+                      var passwordPrompt = prompt("What's your password?");
+
+                      //Here is the logic checking for the correct combination of username and password
+
+                      function signIn(user, password) {
+                        &nbsp;&nbsp;if (user === database[0].username &&
+                        &nbsp;&nbsp;&nbsp;&nbsp;password === database[0].password){
+                        &nbsp;&nbsp;&nbsp;&nbsp;console.log(newsFeed);
+                        &nbsp;&nbsp;}
+                        &nbsp;&nbsp;else {
+                        &nbsp;&nbsp;&nbsp;&nbsp;alert("Sorry, wrong username and password");
+                        &nbsp;&nbsp;}
+                      };
+
+                      //Here the function is called to run
+
+                      signIn(userNamePrompt, passwordPrompt);
+                    </code>
+                  </pre>
+                </div>
+
+                <div class="col-12">
+                  <pre class="output-bg">
+                    <code>
+                      Console Output with correct combination:
+                      > [[object Object] {
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Mondays... meh",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jane"
+                        &nbsp;&nbsp;}, [object Object] {
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Girl's night, yay!!",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Jennifer"
+                        &nbsp;&nbsp;}, [object Object] {
+                        &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Loving this weather!",
+                        &nbsp;&nbsp;&nbsp;&nbsp;username: "Joe"
+                        &nbsp;&nbsp;}]
+                    </code>
+                  </pre>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <p class="text-left code-description">
+                  As I mentioned before, I needed to be able to access more than one user in the data base. Currently the code will only access and verify a single user. This is because that in the <code>signIn()</code> function I am only checking if <code>user</code> and <code>password</code> against the first index of the database array. Even if there were multiple users in my database <code>signIn()</code> would never check them. For that I need to refactor using a loop.
+                </p>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                      //Here a database consisting of multiple users
+
+                      var database = [
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "John",
+                      &nbsp;&nbsp;&nbsp;&nbsp;password: "qwet123"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "Mike",
+                      &nbsp;&nbsp;&nbsp;&nbsp;password: "clubba444"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "Chino",
+                      &nbsp;&nbsp;&nbsp;&nbsp;password: "56htohe"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "Amanda",
+                      &nbsp;&nbsp;&nbsp;&nbsp;password: "m88ujhg"
+                      &nbsp;&nbsp;}
+                      ];
+
+                      //Here is the newsfeed array containing three objects for the feed
+
+                      var newsFeed = [
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Mondays... meh",
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "Jane"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp;timeline: "Girl's night, yay!!",
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "Jennifer"
+                      &nbsp;&nbsp;},
+                      &nbsp;&nbsp;{
+                      &nbsp;&nbsp;&nbsp;&nbsp; timeline: "Loving this weather!",
+                      &nbsp;&nbsp;&nbsp;&nbsp;username: "Joe"
+                      &nbsp;&nbsp;}
+                      ];
+
+                      //Here is the logic checking for the correct combination of username and password
+
+                      function validateUser(user, password) {
+                      &nbsp;&nbsp;for(var i = 0; i < database.length; i++) {
+                      &nbsp;&nbsp;&nbsp;&nbsp;if(database[i].username === user &&
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;database[i].password === password) {
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return true
+                      &nbsp;&nbsp;&nbsp;&nbsp;}
+                      &nbsp;&nbsp;}
+                      }
+
+                      function signIn(user, password) {
+                      &nbsp;&nbsp;if(isUserValid(user, password)) {
+                      &nbsp;&nbsp;&nbsp;&nbsp;console.log(newsFeed);
+                      }
+                      &nbsp;&nbsp;else {
+                      &nbsp;&nbsp;&nbsp;&nbsp;alert("Sorry, wrong username or pssword")
+                      &nbsp;&nbsp;}
+                      }
+
+                      //Here is where the username and password are requested from the user
+
+                      var userNamePrompt = prompt("Whats your username?");
+                      var passwordPrompt = prompt("What's your password?");
+
+                      //Here the function is called to run
+
+                      signIn(userNamePrompt, passwordPrompt);
+                    </code>
+                  </pre>
+                </div>
+              </div>
+            </section>
+            <!-- End exercise Six -->
+
+            <!-- exercise Seven -->
+            <section class="exercise" id="shopping-list">
+              <div class="row"><!-- Title 07 -->
+                <div class="col-12">
+                  <p class="number text-center">
+                    07
+                  </p>
+                  <div class="underline"></div>
+                  <h2 class="page-title">shopping list</h2>
+                </div>
+              </div><!-- End title 07 -->
+
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center code-description">
+                    Next up I learned about the DOM, DOM selectors and event listeners by creating a simple shopping list.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <pre class="code-bg">
+                    <code>
+                    </code>
+                  </pre>
+                </div>
+
+                <div class="col-12">
+                  <pre class="output-bg">
+                    <code>
+                    </code>
+                  </pre>
+                </div>
+              </div>
+            </section>
+            <!-- End exercise Seven -->
 
 
 
@@ -382,10 +1165,23 @@
 
 
 
-          </div>
-        </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+          </div><!-- End Container -->
+        </section><!-- End Page Section -->
+
+        </main>
 
 
 
