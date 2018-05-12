@@ -1,3 +1,14 @@
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+
 //First calculator program
 
 function calc1() {
@@ -73,7 +84,7 @@ function checkDriverAge1() {
 		alert("Powering On. Enjoy the ride!");
 	}
 
-  else if (age === 18) {
+  else if (age == 18) {
 		alert("Congratulations on your first year of driving. Enjoy the ride!");
 	}
 };
@@ -92,7 +103,7 @@ var checkDriverAge2 = function() {
 		alert("Powering On. Enjoy the ride!");
 	}
 
-  else if (age === 18) {
+  else if (age == 18) {
 		alert("Congratulations on your first year of driving. Enjoy the ride!");
 	}
 };
